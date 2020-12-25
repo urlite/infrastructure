@@ -1,4 +1,4 @@
 locals {
-  urlite_website_domain = local.urlite_website_domain
-  urlite_domain         = local.urlite_domain
+  urlite_website_domain = "www.urlite.cc"
+  urlite_domain         = "urlite.cc"
 }
