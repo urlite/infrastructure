@@ -6,6 +6,7 @@ resource "aws_s3_bucket" "b" {
   }
   tags = {
     Name = local.urlite_website_domain
+    Terraform: true
   }
 }
 

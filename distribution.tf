@@ -53,7 +53,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   tags = {
-    Environment = "production"
+    Terraform: true
   }
 
   depends_on = [null_resource.upload_to_bucket]
